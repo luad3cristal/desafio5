@@ -3,3 +3,51 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --button-detail: #f1a5b1;
+  --first-text: 700 "Open Sans";
+  --second-text: 800 "Andada Pro";
+  --third-text: 500 "Archivo";
+  --button-text: 700 "Roboto";
+}
+
+body {
+  background: url(./assets/bg-desktop.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+#container {
+  width: 58vw;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+header #logo img {
+  width: 150px;
+}
+
+header #nav-links {
+  display: flex;
+  gap: 24px;
+  color: white;
+}
+
+header #nav-links ion-icon {
+  font-size: 16px;
+
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
