@@ -18,7 +18,7 @@ body {
 }
 
 #container {
-  width: 58vw;
+  width: 60vw;
   margin: 0 auto;
 }
 
@@ -56,10 +56,12 @@ main {
   justify-content: space-between;
 
   color: white;
+
+  padding: 0px 20px 0px 0px;
 }
 
 main #content {
-  width: 40%;
+  width: 41%;
 }
 
 main #content #title h6 {
