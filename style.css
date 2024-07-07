@@ -138,6 +138,73 @@ main #buttons #b2 a {
 main #ghosts {
   width: 50%;
 }
+
 main #ghosts img {
   width: 110%;
+}
+
+@media (max-width: 769px) {
+  body {
+    background: url("./assets/bg-tablet.png");
+  }
+
+  #container {
+    width: 100vw;
+  }
+
+  header {
+    padding: 24px 30px;
+    margin-bottom: 5px;
+  }
+
+  header #logo img {
+    width: 130px;
+  }
+
+  main {
+    flex-direction: column-reverse;
+
+    padding: 0px 30px 50px;
+  }
+
+  main #content {
+    width: 63%;
+  }
+
+  main #content #title {
+    width: 60%;
+  }
+
+  main #content #title h6 {
+    font-size: 16px;
+  }
+
+  main #content #title h1 {
+    font-size: 40px;
+  }
+
+  main #content #paragraph {
+    margin: 10px 0px 30px;
+  }
+
+  main #content #paragraph p {
+    font-size: 16px;
+  }
+
+  main #content #buttons {
+    flex-direction: column;
+  }
+
+  main #content #buttons button {
+    padding: 12px;
+  }
+
+  main #ghosts {
+    width: 50%;
+    padding: 15px 10px;
+  }
+
+  main #ghosts img {
+    width: 110%;
+  }
 }
