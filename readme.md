@@ -1,4 +1,4 @@
-<h1 align="center"> Login </h1>
+<h1 align="center"> Studio Ghibli </h1>
 
 <p align="center">
 Esse site foi desenvolvido como parte de um desafio elaborado pela Codelândia no desenvolvimento de habilidades necessárias em um Web Developer.
